@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "Text Manipulator",
+  "version": "1.0",
+  "description": "A browser extension that performs various text manipulation operations.",
+  "icons": {
+    "48": "icon48.png",
+    "96": "icon96.png"
+  },
+  "browser_action": {
+    "default_title": "Text Manipulator",
+    "default_popup": "popup.html"
+  },
+  "permissions": ["activeTab"]
+}
